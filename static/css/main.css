@@ -3,7 +3,7 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: hotpink; /* #404040; */
+  color: #404040;
   position: relative;
   background: #FFF;
   display: flex;
@@ -148,7 +148,11 @@ img {
   letter-spacing: 1px;
 }
 
-.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  color: hotpink;
+}
+
 .navbar-custom .nav li a {
   font-weight: 800;
   color: #404040;
